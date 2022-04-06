@@ -1,42 +1,19 @@
 body{
     background-color:rgb(61, 29, 29);
+    max-width: 900px;
+    margin: auto;
 }
 #title{
+    margin:auto;
     border: 3px dashed black;
     border-radius: 50%;
     margin: 25px;
     padding-top: 5px;
     padding-bottom: 5px;   
-    padding-left: 40%;
-    font-size: 25px;
-}
-.subtitle, .post_title, .post_subtitle{
-    color:black;
-    font-style: italic;
-    font-size: 20px;
-}
-.Photo{
-    color: rgb(88, 88, 196);
-    font-style: italic;
-    font-size: 20px;
-}
-.Photo_2{
-    margin-left: 40px;
-    border-radius: 50% 100% 50% 100%;
-    border: 3px solid black;
-}
-.Text, .Text_2, .Text_3, .Text_4{
-    Color: rgb(88, 88, 196);
-    font-style: italic;
-    font-size: 16px;
-}
-.Link, .Link_2, .Link_3{
-    Color: black;
+    padding-left: 29%;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
     font-style:italic;
-    font-size: 15px;
-    border: 2px solid black;
-    margin: 5px;
-    padding: 5px;
 }
 ._post{
     background-color: rgb(65, 40, 40);
@@ -47,4 +24,45 @@ body{
     border: 3px dotted black;
     border-bottom: 3px dotted black;
     border-radius: 4%;
+}
+
+.subtitle, .post_title, .post_subtitle, .Text_4{
+    color:black;
+    font-style: italic;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Text, .Text_2, .Text_3{
+    Color: rgb(88, 88, 196);
+    font-style: italic;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    text-align: auto;
+}
+.Link, .Link_2, .Link_3{
+    Color: rgb(88, 88, 196);
+    font-style:italic;
+    font-size: 16px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 50%;   
+}
+.Photo{
+    color: black;
+    font-style: italic;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+.Photo_2{
+    margin-left: 40px;
+    border-radius: 50% 100% 50% 100%;
+    border: 3px solid black;
+}
+.List_1, .List_2, .List_3, .List_4, .List_5{
+    list-style-type: square;
+    padding-left: 5%;
 }
